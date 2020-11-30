@@ -1,0 +1,85 @@
+/* utility class */
+.d-flex{
+    display: flex;
+}
+
+*{
+    color: lightgray;
+}
+
+.d-none{
+    display: none;
+}
+/* header */
+.container_nav{
+    justify-content: space-around;
+}
+
+#navbar_left{
+    justify-content: space-evenly;
+    width: 20%;
+    margin-top: 10px;
+}
+
+#navbar_right{
+    margin-top: 20px;
+    justify-content: space-around;
+    width: 40%;
+}
+
+i{
+    color: black;
+    font-size: 3.5rem;
+}
+
+#navbar_left div:nth-child(2), #navbar_left div:last-child{
+    margin-top: 10px;
+}
+
+#navbar_left div:nth-child(2){
+    color: black;
+    font-weight: 600;
+}
+
+#navbar_left div:last-child:hover, #navbar_right > div > span:hover{
+    color: black;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+#navbar_right > div > span{
+    display: flex;
+    justify-content: center;
+}
+
+#navbar_right div{
+    width: 90px;
+}
+
+ul{
+    padding: 10px 0;
+    text-transform: capitalize;
+    box-shadow: 4px 4px 2px lightgray;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: magenta;
+    color: white;
+    margin-left: 20px;
+}
+
+.btn:hover{
+    color: white;
+    filter: drop-shadow(1px 1px 1px grey);
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
